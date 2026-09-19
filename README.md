@@ -13,6 +13,7 @@ Códigos, exemplos e projetos da jornada aprendendo Rust, acompanhando os vídeo
 |---|------|--------|---------------------|
 | 1 | [Hello World](#1-hello-world) | [`hello-world/`](./hello-world) | Primeiro binário com Cargo e `println!` |
 | 2 | [API simples](#2-api-simples) | [`api-simples/`](./api-simples) | Servidor HTTP com Axum, Tokio e JSON |
+| 3 | [Site](#3-site) | [`site/`](./site) | Páginas HTML com Axum e rotas para `/` e `/sobre` |
 
 ## 1. Hello World
 
@@ -46,6 +47,32 @@ Resposta esperada:
 
 ```json
 {"message":"Hello, World!"}
+```
+
+## 3. Site
+
+Pasta: [`site/`](./site)
+
+Exemplo de site em Rust com [Axum](https://docs.rs/axum), onde o servidor responde com páginas HTML em duas rotas:
+
+- `/` — página inicial com o título "Meu primeiro site com Rust"
+- `/sobre` — página de apresentação com link para voltar ao início
+
+```bash
+cd site
+cargo run
+```
+
+Depois, abra no navegador:
+
+```text
+http://127.0.0.1:3000
+```
+
+Você também pode acessar a página de sobre em:
+
+```text
+http://127.0.0.1:3000/sobre
 ```
 
 ## Como usar este repositório
