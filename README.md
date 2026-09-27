@@ -10,10 +10,13 @@ Códigos, exemplos e projetos da jornada aprendendo Rust, acompanhando os vídeo
 ## Índice das aulas
 
 | # | Aula | Pasta | O que você aprende |
-|---|------|--------|---------------------|
+|---|------|-------|--------------------|
 | 1 | [Hello World](#1-hello-world) | [`hello-world/`](./hello-world) | Primeiro binário com Cargo e `println!` |
-| 2 | [API simples](#2-api-simples) | [`api-simples/`](./api-simples) | Servidor HTTP com Axum, Tokio e JSON |
-| 3 | [Site](#3-site) | [`site/`](./site) | Páginas HTML com Axum e rotas para `/` e `/sobre` |
+| 2 | [API simples](#2-api-simples) | [`api-simples/`](./api-simples) | Rotas HTTP básicas com Axum e JSON |
+| 3 | [API com parâmetro na rota](#3-api-com-parmetro-na-rota) | [`api-simples-parametro/`](./api-simples-parametro) | Como receber valores dinâmicos em `GET /hello/{name}` |
+| 4 | [API com POST e payload](#4-api-com-post-e-payload) | [`api-simples-parametro-post/`](./api-simples-parametro-post) | Receber JSON em `POST` e processar dados de um usuário |
+| 5 | [Site estático com Axum](#5-site-estatico-com-axum) | [`site/`](./site) | Criar páginas HTML em rotas como `/` e `/sobre` |
+| 6 | [Site com templates Askama](#6-site-com-templates-askama) | [`site-askama-template/`](./site-askama-template) | Separar HTML em templates com Askama e renderizar dados dinamicamente |
 
 ## 1. Hello World
 
@@ -49,7 +52,49 @@ Resposta esperada:
 {"message":"Hello, World!"}
 ```
 
-## 3. Site
+## 3. API com parâmetro na rota
+
+Pasta: [`api-simples-parametro/`](./api-simples-parametro)
+
+Exemplo de rota dinâmica com [Axum](https://docs.rs/axum): o valor do caminho entra na URL e é usado no retorno JSON.
+
+```bash
+cd api-simples-parametro
+cargo run
+```
+
+Teste com:
+
+```bash
+curl http://127.0.0.1:3000/hello/Israel
+```
+
+Resposta esperada:
+
+```json
+{"message":"Hello, Israel!"}
+```
+
+## 4. API com POST e payload
+
+Pasta: [`api-simples-parametro-post/`](./api-simples-parametro-post)
+
+Nesta aula, a API recebe dados em JSON via `POST` e também mantém a rota dinâmica com parâmetro na URL.
+
+```bash
+cd api-simples-parametro-post
+cargo run
+```
+
+Exemplo de requisição:
+
+```bash
+curl -X POST http://127.0.0.1:3000/usuario \
+  -H "Content-Type: application/json" \
+  -d '{"nome":"Israel","idade":30}'
+```
+
+## 5. Site estático com Axum
 
 Pasta: [`site/`](./site)
 
@@ -74,6 +119,25 @@ Você também pode acessar a página de sobre em:
 ```text
 http://127.0.0.1:3000/sobre
 ```
+
+## 6. Site com templates Askama
+
+Pasta: [`site-askama-template/`](./site-askama-template)
+
+Nesta aula, o HTML deixa de ser montado diretamente em strings e passa a ser renderizado por templates usando [Askama](https://askama.readthedocs.io/). A ideia é separar a lógica do Rust da marcação HTML.
+
+```bash
+cd site-askama-template
+cargo run
+```
+
+Depois, acesse no navegador:
+
+```text
+http://127.0.0.1:3000
+```
+
+Os templates ficam dentro da pasta `templates/` e são usados para renderizar as páginas inicial e "sobre".
 
 ## Como usar este repositório
 
