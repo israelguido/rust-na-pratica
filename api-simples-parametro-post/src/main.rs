@@ -40,8 +40,3 @@ async fn main() {
     axum::serve(listener, app).await.unwrap();
 }
 
-/*
-curl --location 'http://127.0.0.1:3000/usuario' \
---header 'Content-Type: application/json' \
---data '{"nome":"BRuna","idade":25}'
-*/
