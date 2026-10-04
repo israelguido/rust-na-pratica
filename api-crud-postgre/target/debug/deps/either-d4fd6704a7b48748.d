@@ -1,0 +1,11 @@
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/either-d4fd6704a7b48748.d: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged_optional.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/iterator.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/into_either.rs
+
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/libeither-d4fd6704a7b48748.rlib: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged_optional.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/iterator.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/into_either.rs
+
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/libeither-d4fd6704a7b48748.rmeta: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged_optional.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/iterator.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/into_either.rs
+
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/lib.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/serde_untagged_optional.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/iterator.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.18.0/src/into_either.rs:

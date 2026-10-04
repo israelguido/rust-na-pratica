@@ -1,0 +1,10 @@
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/primeorder-0f6c88ad5cd5a463.d: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md
+
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/libprimeorder-0f6c88ad5cd5a463.rmeta: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md
+
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md:

@@ -1,0 +1,2 @@
+fn(State<Pool<Postgres>>, axum::Json<NovoUsuario>) -> impl Future<Output = axum::Json<JsonValue>> {criar_usuario}
+fn(State<Pool<Postgres>>, axum::Json<NovoUsuario>) -> impl Future<Output = axum::Json<JsonValue>> {criar_usuario}: Handler<_, _>

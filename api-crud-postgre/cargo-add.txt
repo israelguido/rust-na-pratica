@@ -1,0 +1,6 @@
+cargo add axum
+cargo add tokio --features full
+cargo add serde --features derive
+cargo add serde_json
+cargo add sqlx --features runtime-tokio,postgres,macros
+cargo add dotenvy

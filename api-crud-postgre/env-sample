@@ -1,0 +1,2 @@
+DATABASE_URL=postgresql://rust:rust123@localhost:5432/rust_api
+#tupodebanco->user:senha@hostIp:porta/database_name

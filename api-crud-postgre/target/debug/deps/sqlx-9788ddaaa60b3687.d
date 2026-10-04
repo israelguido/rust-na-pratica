@@ -1,0 +1,12 @@
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/sqlx-9788ddaaa60b3687.d: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/mod.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/mod.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/ty_match.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/spec_error.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.md /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/test.md /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/install_drivers_note.md
+
+/home/israel/Projects/ISRAEL/RUST/api-crud-postgre/target/debug/deps/libsqlx-9788ddaaa60b3687.rmeta: /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/mod.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/mod.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/ty_match.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/spec_error.rs /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.md /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/test.md /home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/install_drivers_note.md
+
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/mod.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/mod.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/ty_match.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/spec_error.rs:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.md:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/test.md:
+/home/israel/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/install_drivers_note.md:
