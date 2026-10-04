@@ -1,1 +1,0 @@
-fn({type error}) -> Result<axum::Json<Vec<Usuario>>, {type error}> {listar_usuarios}: Handler<_, _>
